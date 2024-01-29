@@ -1,8 +1,26 @@
+body{
+    background-image: url(/AppWeb/Fotos/pngtree-white-technology-background-clean-style-picture-image_1209726.jpg);
+}
+
 .flex-item{
-    background: grey; height: 30px;
+    border: 2px solid black;
+    background: white; height: 30px;
     flex-basis: 100%;
     text-align: center;
     list-style-type: none;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.flex-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid: 1fr 1fr 1fr 1fr;
+}
+
+.titulo{
+    text-align: center;
+    font-style: italic;
+   
 }
