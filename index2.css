@@ -1,7 +1,5 @@
 body{
     background-image: url(/AppWeb/Fotos/pngtree-white-technology-background-clean-style-picture-image_1209726.jpg);
-    margin: 0;
-    padding: 0;
 }
 
 .flex-item{
@@ -11,23 +9,15 @@ body{
     text-align: center;
     list-style-type: none;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .flex-container{
     display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid: 1fr 1fr 1fr 1fr;
-    display: flex;
-}
-
-.titulo{
-    text-align: center;
-    font-style: italic;
-   display: flex;
-   flex-direction: column;
 }
 
 footer{
@@ -38,22 +28,22 @@ footer{
     width: 100%;
 }
 
+
+p{
+    flex-direction: column;
+    display: flex;
+}
+
+.formulario{
+    flex-direction: column;
+    
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
 
-th, td {
-    border: 1px solid black;
-    padding: 100px;
-    justify-content:space-around;
-  }
-  table{
-  background-color: white;
-  border-collapse: collapse;
-  margin: 0;
-  }
-
-  .container {
+.container {
     justify-content: ;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
