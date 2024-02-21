@@ -12,24 +12,40 @@
         <div class="flex-item"><a href="/AppWeb/index.html">Home</div></a> 
         <div class="flex-item"><a href="/AppWeb/Productos.html">Nuestros Productos</a></div>
     </div>
-    <div class="formulario">
-    <h1>Formulario de registro</h1>
-    Nombre:<input type="text" id="identificador" size="tamaño" name="nombre" value="texto por defecto"/><br><br>
-    Apellidos:<input type="text" id="identificador" size="tamaño" name="nombre" value="texto por defecto"/><br><br>
-    Sexo:<input type="radio" id="identificador" value="valor" name="nombre"/>hombre
-    <input type="radio" id="identificador" value="valor" name="nombre" checked="checked"/>mujer<br><br>
-    Correo:<input type="text" id="identificador" size="tamaño" name="nombre" value="texto por defecto"/><br><br>
-    Población:<select name="curso" id="curso">
-        <option value="DAW">Barcelona</option>
-        <option value="DAW">Madrid</option>
-        <option value="ASIR"selected>Sevilla</option>
-        <option value="ASMR">Valencia</option>
-    </select><br><br>
-    Mesaje:<textarea rows="numerofilas" cols="numerocolumnas" name="nombre"></textarea><br><br>
-    <input type="checkbox" id="identificador" name="nombre"/>Deseo recibir información sobre novedades y ofertas<br><br>
-    <input type="checkbox" id="identificador" name="nombre"/>Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos<br><br>
-    <input type="submit" value="Enviar"/>
-    </div>
+    <form action="Enviado.html">
+        <h1>Formulario de registro</h1>
+        Nombre:
+        <input type="text" id="nombre" size="15">
+        <br><br>
+        Apellidos:
+        <input type="text" id="apellidos" size="15">
+        <br><br>
+        Sexo:
+        <input type="radio" id="hombre" name="opcion" value="hombre">
+        Hombre
+        <input type="radio" id="mujer" name="opcion" value="mujer">
+        Mujer
+        <br><br>
+        Correo:
+        <input type="text" id="correo" size="15">
+        <br><br>
+        Población:
+        <select name="poblacion" id="poblacion">
+            <option value="alicante">Sevilla</option>
+            <option value="sevilla">Barcelona</option>
+            <option value="cordoba">Valencia</option>
+            <option value="madrid">Madrid</option>
+        </select>
+        <br><br>
+        Mensaje:
+        <textarea name="descripcion" id="descripcion" cols="30" rows="4"></textarea>
+        <br><br>
+        <input type="checkbox" id="info" name="info"> Deseo recibir información sobre novedades y ofertas
+        <br><br>
+        <input type="checkbox" id="tyc" name="tyc"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+        <br><br>
+        <input type="submit" value="Enviar" >
+    </form>
     <p>Si teneis alguna duda podemos llamar a nuestro numero de contacto:<br><br><b>+34 674478369<br></b></p>
     <footer>
         <div class="container">
